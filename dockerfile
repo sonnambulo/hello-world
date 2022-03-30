@@ -16,6 +16,6 @@ EXPOSE 80
 # Define environment variable
 ENV NAME World
 
-LABEL workflow-testing-4 test
+LABEL workflow-testing-4 dummy
 # Run app.py when the container launches
 CMD ["python", "app.py"]
